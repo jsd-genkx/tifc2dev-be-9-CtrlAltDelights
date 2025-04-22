@@ -1,0 +1,14 @@
+### Get all books
+GET http://localhost:3000/books
+
+### Get books filtered by Fiction genre
+GET http://localhost:3000/books?genre=Fiction
+
+### Get books filtered by Dystopian genre
+GET http://localhost:3000/books?genre=Dystopian
+
+### Get a specific book by ID
+GET http://localhost:3000/books/1
+
+
+
